@@ -10,6 +10,8 @@ import MusicImage from "./music-elements/MusicImage";
 import MusicKey from "./music-elements/MusicKey";
 import MusicTags from "./music-elements/MusicTags";
 import MusicTitle from "./music-elements/MusicTitle";
+// style
+import "../../style/css/music-form/music-li.css";
 
 function MusicLi({ beat }) {
   return (
@@ -19,10 +21,10 @@ function MusicLi({ beat }) {
       <PauseButton className="pause-button" />
       <MusicTitle title={beat.name} />
       <MusicBpm bpm={beat.bpm} />
-      <MusicKey key={beat.key} />
+      <MusicKey keyName={beat.key} />
       <MusicTags tags={beat.tags} />
-      <Share className=" btn-share" />
-      <Cart className="cart-image"/>
+      <Share className=" music-share" />
+      <Cart className="music-cart"/>
     </li>
   )
 }

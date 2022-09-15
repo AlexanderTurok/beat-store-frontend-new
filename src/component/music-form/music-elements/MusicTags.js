@@ -1,4 +1,5 @@
 
+// components
 import MusicTag from "./MusicTag";
 
 function MusicTags({ tags }) {

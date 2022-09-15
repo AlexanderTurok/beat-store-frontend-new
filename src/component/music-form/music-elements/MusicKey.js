@@ -1,9 +1,9 @@
-import React from 'react'
 
-function MusicKey({ key }) {
+
+function MusicKey({ keyName }) {
   return (
     <p className='music-key'>
-      {key}
+      {keyName}
     </p>
   )
 }

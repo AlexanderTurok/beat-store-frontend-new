@@ -1,0 +1,15 @@
+@import "../config.scss";
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .column {
+    color: $color_3;
+    font-size: $fss;
+  }  
+  .title {
+    width: 150px;
+  }
+}

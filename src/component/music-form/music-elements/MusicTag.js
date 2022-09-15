@@ -3,7 +3,7 @@
 function MusicTag({ tag }) {
   return (
     <li className="music-tag">
-      {tag}
+      {tag.tag_name}
     </li>
   )
 }

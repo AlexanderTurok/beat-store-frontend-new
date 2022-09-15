@@ -1,6 +1,8 @@
 
 // components
 import MusicLi from "./MusicLi";
+// style
+import "../../style/css/music-form/music-list.css";
 
 import data from './data.json';
 

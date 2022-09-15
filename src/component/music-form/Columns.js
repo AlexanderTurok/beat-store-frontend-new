@@ -1,17 +1,15 @@
 
-
-// components
-import Column from "./Column";
+// style
+import "../../style/css/music-form/music-columns.css"
 
 function Columns() {
   return (
     <div className="columns">
-      <Column name={"TITLE"}/>
-      <Column name={"KEY"}/>
-      <Column name={"BPM"}/>
-      <Column name={"KEY"}/>
-      <Column name={"TAGS"}/>
-      <Column name={"OPTIONS"}/>
+      <strong className='column title'> TITLE </strong>
+      <strong className='column bpm'> BPM </strong>
+      <strong className='column key'> KEY </strong>
+      <strong className='column tags'> TAGS </strong>
+      <strong className='column options'> OPTIONS </strong>
     </div>
   )
 }
