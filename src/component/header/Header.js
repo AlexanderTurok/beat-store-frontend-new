@@ -4,8 +4,10 @@ import Checkout from "./Checkout";
 import Logo from "./Logo";
 import Menu from "./Menu";
 import SignIn from "./SignIn";
+import Search from "../search/Search";
 // style
 import "../../style/css/header/header.css";
+
 
 function Header() {
   return (
@@ -14,6 +16,7 @@ function Header() {
       <Menu />
       <Checkout />
       <SignIn />
+      <Search />
     </div>
   )
 }
