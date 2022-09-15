@@ -1,9 +1,13 @@
 
+// components
+import MusicForm from "../component/music-form/MusicForm";
+// style 
+import '../style/css/home/home.css';
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="home">
+      <MusicForm />
     </div>
   )
 }

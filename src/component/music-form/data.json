@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Sunshine",
+    "bpm": "120",
+    "key": "Gm",
+    "photo_path": "sunshine.jpeg",
+    "mp3_path": "sunshine.mp3",
+    "wav_path": "sunshine.wav",
+    "genre": "electro",
+    "mood": "happy",
+    "tags": [
+        {   
+          "id": 1,
+          "tag_name": "sunshine"
+        },
+        { 
+          "id": 2,
+          "tag_name": "beat"
+        }
+    ],
+    "standart_price": "19.99$",
+    "premium_price": "49.99$",
+    "unlimited_price": "99.99$"
+  }, {
+    "id": 2,
+    "name": "Moonlight",
+    "bpm": "120",
+    "key": "Gm",
+    "photo_path": "sunshine.jpeg",
+    "mp3_path": "sunshine.mp3",
+    "wav_path": "sunshine.wav",
+    "genre": "electro",
+    "mood": "happy",
+    "tags": [
+        {   
+          "id": 1,
+          "tag_name": "sunshine"
+        },
+        { 
+          "id": 2,
+          "tag_name": "beat"
+        }
+    ],
+    "standart_price": "19.99$",
+    "premium_price": "49.99$",
+    "unlimited_price": "99.99$"
+  }
+]
