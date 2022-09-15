@@ -1,0 +1,30 @@
+.checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e1e1e1;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.checkout:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: rgba(225, 225, 225, 0.8);
+}
+.checkout .cart-icon {
+  height: 32px;
+  width: 32px;
+}

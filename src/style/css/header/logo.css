@@ -1,0 +1,13 @@
+.logo {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #e1e1e1;
+  font-size: 36px;
+  margin-right: auto;
+}
+.logo:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: rgba(225, 225, 225, 0.8);
+}

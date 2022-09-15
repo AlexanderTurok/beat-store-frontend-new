@@ -1,5 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+// Font Sizes
+$fsxs: 16px;
+$fss: 20px;
+$fsm: 24px;
+$fsl: 28px;
+$fsxl: 32px;
+$fsxxl: 36px;
+// Colors
+$color_1: #000;
+$color_2: #e1e1e1;
+$color_3: #5e5e5e;
+$color_4: #02050e;
+// transparent colors 
+$colora_1: rgba(#000, 0.8);
+$colora_2: rgba(#e1e1e1, 0.8);
+$colora_3: rgba(#5e5e5e, 0.8);
+$colora_4: rgba(#02050e, 0.8);
+// transition
+$short-transition: 0.2s;
+$standart-transition: 0.3s;
+$long-transition: 0.4s;
