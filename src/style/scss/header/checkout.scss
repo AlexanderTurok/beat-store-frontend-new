@@ -1,0 +1,21 @@
+@import "../config.scss";
+
+.checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: $color_2;
+  font-size: $fss;
+  text-decoration: none;
+  padding: 0 4px;
+  transition: $standart-transition;
+  &:hover {
+    transition: $standart-transition;
+    color: $colora_2;
+  }
+  .cart-icon {
+    height: 32px;
+    width: 32px;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../config.scss";
+
+.sign-up {
+  color: $color_2;
+  font-size: $fss;
+  text-decoration: none;
+  padding: 0 4px;
+  transition: $standart-transition;
+  &:hover {
+    transition: $standart-transition;
+    color: $colora_2;
+  }
+}

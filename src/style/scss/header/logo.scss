@@ -1,0 +1,13 @@
+@import "../config.scss";
+
+.logo {
+  transition: $standart-transition;
+  text-decoration: none;
+  color: $color_2;
+  font-size: $fsxxl;
+  margin-right: auto;
+  &:hover {
+    transition: $standart-transition;
+    color: $colora_2;
+  }
+}
