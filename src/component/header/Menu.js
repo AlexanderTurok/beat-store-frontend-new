@@ -1,17 +1,20 @@
 
+// react
 import { Link } from 'react-router-dom';
+// style
+import "../../style/css/header/menu.css";
 
 function Menu() {
   return (
     <ul className='menu'>
-      <Link to='/about'>
-        <li className='menu-button'>ABOUT</li>
+      <Link className='menu-button' to='/about'>
+        <li>ABOUT</li>
       </Link>
-      <Link to='/beats'>
-        <li className='menu-button'>BEATS</li>
+      <Link className='menu-button' to='/beats'>
+        <li>BEATS</li>
       </Link>  
-      <Link to='/contact'>
-        <li className='menu-button'>CONTACT</li>
+      <Link className='menu-button' to='/contact'>
+        <li>CONTACT</li>
       </Link>
     </ul>
   )

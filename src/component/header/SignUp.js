@@ -1,11 +1,13 @@
 
-import React from 'react'
-import { Link } from 'react-router-dom'
+// react
+import { Link } from 'react-router-dom';
+// style
+import "../../style/css/header/signup.css";
 
 function SignUp() {
   return (
     <Link className='sign-up' to='sign-up'>
-      Sign Up
+      SIGN UP
     </Link>
   )
 }

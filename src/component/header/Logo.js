@@ -1,5 +1,8 @@
 
+// react
 import { Link } from 'react-router-dom';
+// style
+import "../../style/css/header/logo.css";
 
 function Logo() {
   return (

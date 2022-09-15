@@ -1,6 +1,8 @@
 
 import { Link } from "react-router-dom";
 import { GiShoppingCart as Cart } from "react-icons/gi";
+// style
+import "../../style/css/header/checkout.css";
 
 function Checkout() {
   return (
