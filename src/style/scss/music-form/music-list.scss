@@ -1,9 +1,10 @@
 @import "../config.scss";
 
 .music-list {
-  width: 50%;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
+  align-items: center;
 }
