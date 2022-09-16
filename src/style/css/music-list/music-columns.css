@@ -1,0 +1,40 @@
+.columns {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.columns .column {
+  color: #5e5e5e;
+  font-size: 20px;
+}
+.columns .title {
+  width: 200px;
+  margin: 0 4px;
+  margin-left: 52px;
+}
+.columns .bpm {
+  min-width: 44px;
+  margin: 0 4px;
+}
+.columns .key {
+  min-width: 56px;
+  margin: 0 4px;
+}
+.columns .tags {
+  min-width: 80px;
+  margin: 0 4px;
+}
+.columns .options {
+  min-width: 64px;
+  margin: 0 4px;
+}

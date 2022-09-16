@@ -1,0 +1,68 @@
+.music-li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  margin: 4px 0;
+}
+.music-li .play-button, .music-li .pause-button {
+  display: none;
+}
+.music-li .music-image {
+  width: 44px;
+  height: 44px;
+  margin: 0 4px;
+}
+.music-li .music-title {
+  min-width: 200px;
+  margin: 0 4px;
+}
+.music-li .music-bpm {
+  min-width: 44px;
+  margin: 0 4px;
+}
+.music-li .music-key {
+  min-width: 56px;
+  margin: 0 4px;
+}
+.music-li .music-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  min-width: 80px;
+}
+.music-li .music-tags .music-tag {
+  color: #5e5e5e;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 4px;
+}
+.music-li .music-share {
+  min-width: 28px;
+  height: 28px;
+  margin: 0 4px;
+}
+.music-li .music-cart {
+  min-width: 36px;
+  height: 36px;
+  margin: 0 4px;
+}

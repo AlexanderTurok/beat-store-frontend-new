@@ -1,49 +1,93 @@
 [
   {
-    "id": 1,
-    "name": "Sunshine",
-    "bpm": "120",
-    "key": "Gm",
-    "photo_path": "sunshine.jpeg",
-    "mp3_path": "sunshine.mp3",
-    "wav_path": "sunshine.wav",
-    "genre": "electro",
-    "mood": "happy",
-    "tags": [
-        {   
-          "id": 1,
-          "tag_name": "sunshine"
-        },
-        { 
-          "id": 2,
-          "tag_name": "beat"
-        }
-    ],
-    "standart_price": "19.99$",
-    "premium_price": "49.99$",
-    "unlimited_price": "99.99$"
+    "id": 1,  
+    "bpm": 96,
+    "key": "A#",
+    "name": "We are the champions",
+    "wavPath": "we-are-the-champions",
+    "mp3Path": "we-are-the-champions",
+    "photo_path": "we-are-the-champions",
+    "tags": [{
+        "id": 1,
+        "tag_name": "queen"
+      }, {
+        "id": 2,
+        "tag_name": "rock"
+      }]
   }, {
     "id": 2,
-    "name": "Moonlight",
-    "bpm": "120",
-    "key": "Gm",
-    "photo_path": "sunshine.jpeg",
-    "mp3_path": "sunshine.mp3",
-    "wav_path": "sunshine.wav",
-    "genre": "electro",
-    "mood": "happy",
-    "tags": [
-        {   
-          "id": 1,
-          "tag_name": "sunshine"
-        },
-        { 
-          "id": 2,
-          "tag_name": "beat"
-        }
-    ],
-    "standart_price": "19.99$",
-    "premium_price": "49.99$",
-    "unlimited_price": "99.99$"
-  }
+    "bpm": 100,
+    "key": "Fm",
+    "name": "Moon",
+    "wavPath": "moon",
+    "mp3Path": "moon",
+    "photo_path": "moon",
+    "tags": [{
+      "id": 1,
+      "tag_name": "queen"
+    }, {
+      "id": 2,
+      "tag_name": "rock"
+    }]
+  }, {
+    "id": 3,
+    "bpm": 120,
+    "key": "Dm",
+    "name": "Demon lover",
+    "wavPath": "demon-lover",
+    "mp3Path": "demon-lover",
+    "photo_path": "demon-lover",
+    "tags": [{
+      "id": 1,
+      "tag_name": "queen"
+    }, {
+      "id": 2,
+      "tag_name": "rock"
+    }]
+  }, {
+    "id": 4,
+    "bpm": 180,
+    "key": "Bb",
+    "name": "Running in the 90s",
+    "wavPath": "running-in-the-90s",
+    "mp3Path": "running-in-the-90s",
+    "photo_path": "running-in-the-90s",
+    "tags": [{
+      "id": 1,
+      "tag_name": "queen"
+    }, {
+      "id": 2,
+      "tag_name": "rock"
+    }]
+  }, {
+    "id": 5,
+    "bpm": 131,
+    "key": "Gmaj7",
+    "name": "Moonlight sonata",
+    "wavPath": "moonlight-sonata",
+    "mp3Path": "moonlight-sonata",
+    "photo_path": "moonlight-sonata",
+    "tags": [{
+      "id": 1,
+      "tag_name": "queen"
+    }, {
+      "id": 2,
+      "tag_name": "rock"
+    }]
+  }, {
+    "id": 6,
+    "bpm": 86,
+    "key": "B#",
+    "name": "We are the people",
+    "wavPath": "we-are-the-people",
+    "mp3Path": "we-are-the-people",
+    "photo_path": "we-are-the-people",
+    "tags": [{
+      "id": 1,
+      "tag_name": "queen"
+    }, {
+      "id": 2,
+      "tag_name": "rock"
+    }]
+  } 
 ]

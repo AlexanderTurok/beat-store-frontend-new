@@ -1,15 +1,15 @@
 
-// components
-import MusicForm from "../component/music-form/MusicForm";
-// style 
+// components 
+import MusicList from '../component/music-form/MusicList';
+// style
 import '../style/css/home/home.css';
 
 function Home() {
   return (
     <div className="home">
-      <MusicForm />
+      <MusicList />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
