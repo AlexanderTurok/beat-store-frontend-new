@@ -1,6 +1,6 @@
 
 // style
-import "../../style/css/music-form/music-columns.css"
+import "../../style/css/music-list/music-columns.css"
 
 function Columns() {
   return (

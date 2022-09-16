@@ -11,7 +11,7 @@ import MusicKey from "./music-elements/MusicKey";
 import MusicTags from "./music-elements/MusicTags";
 import MusicTitle from "./music-elements/MusicTitle";
 // style
-import "../../style/css/music-form/music-li.css";
+import "../../style/css/music-list/music-li.css";
 
 function MusicLi({ beat }) {
   return (
