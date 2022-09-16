@@ -1,7 +1,7 @@
 
-// components
-import MusicList from "../component/music-form/MusicList";
-// style 
+// components 
+import MusicList from '../component/music-form/MusicList';
+// style
 import '../style/css/home/home.css';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
     <div className="home">
       <MusicList />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
